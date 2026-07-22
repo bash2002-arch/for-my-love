@@ -23,7 +23,7 @@ button.addEventListener("click", () => {
 
         <h2 style="
             font-family:'Allura',cursive;
-            font-size:32px;
+            font-size:30px;
             color:#B8860B;
             font-weight:400;
             margin-bottom:10px;
@@ -33,20 +33,20 @@ button.addEventListener("click", () => {
 
         <h2 style="
             font-family:'Cinzel',serif;
-            font-size:24px;
+            font-size:20px;
             color:#8B6A2E;
             letter-spacing:2px;
-            margin-bottom:30px;
-            font-weight: bold;">
+            margin-bottom:30px;">
             Meri Pyaari Begum
         </h2>
 
         <h3 style="
-            font-family: 'Cinzel',serif;
-            font-size:18px;
+            font-family: 'Allura',cursive;
+            font-size:20px;
             color:#8B6A2E;
             line-height:1;
-            text-align:center;">
+            text-align:center;
+            font-weight: bold;">
             Happy Birthday Meri Jaan 
             </h3> ❤️<br><br>
 

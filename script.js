@@ -23,7 +23,7 @@ button.addEventListener("click", () => {
 
         <h2 style="
             font-family:'Allura',cursive;
-            font-size:30px;
+            font-size:28px;
             color:#B8860B;
             font-weight:400;
             margin-bottom:10px;

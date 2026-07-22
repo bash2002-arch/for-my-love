@@ -430,3 +430,8 @@ width:100%;
         transform:translateY(-8px);
     }
 }
+.welcome{
+    text-align:center;
+    letter-spacing:2px;
+    margin-bottom:15px;
+}

@@ -23,12 +23,15 @@ button.addEventListener("click", () => {
 
         <h2 style="
             font-family:'Allura',cursive;
-            font-size:30px;
+            font-size:32px;
             color:#B8860B;
             font-weight:400;
             margin-bottom:10px;
         ">
-            ❤️ Assalamualaikum ❤️
+            <span class="heart">❤️</span>
+            Assalamualaikum 
+            <span class="heart">❤️</span>
+
         </h2>
 
         <h2 style="
@@ -48,7 +51,7 @@ button.addEventListener("click", () => {
             text-align:center;
             font-weight: bold;">
             Happy Birthday Meri Jaan 
-            </h3> ❤️<br><br>
+            </h3> <br>❤️<br><br>
 
         <p class="aaj-ka">
         Yeh sirf shuruaat hai...<br><br>

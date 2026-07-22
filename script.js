@@ -28,11 +28,11 @@ button.addEventListener("click", () => {
             font-weight:400;
             margin-bottom:10px;
         ">
-            <span class="heart">❤️</span>
+            <span class="small-heart">❤️</span>
             Assalamualaikum 
-            <span class="heart">❤️</span>
+            <span class="small-heart">❤️</span>
 
-        </h2>
+        </h2>;
 
         <h2 style="
             font-family:'Cinzel',serif;

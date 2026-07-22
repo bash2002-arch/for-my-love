@@ -26,12 +26,10 @@ button.addEventListener("click", () => {
             font-size:32px;
             color:#B8860B;
             font-weight:400;
-            margin-bottom:10px;
-        ">
-            <span class="small-heart">❤️</span>
-            Assalamualaikum 
-            <span class="small-heart">❤️</span>
-
+            margin-bottom:10px;">
+             <span style="font-size:16px;">💖</span>
+            Assalamualaikum
+            <span style="font-size:16px;">💖</span>
         </h2>;
 
         <h2 style="

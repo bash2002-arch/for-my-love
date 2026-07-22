@@ -23,12 +23,12 @@ button.addEventListener("click", () => {
 
         <h2 style="
             font-family:'Allura',cursive;
-            font-size:28px;
+            font-size:30px;
             color:#B8860B;
             font-weight:400;
             margin-bottom:10px;
         ">
-            ❤️ Assalamu Alaikum ❤️
+            ❤️ Assalamualaikum ❤️
         </h2>
 
         <h2 style="

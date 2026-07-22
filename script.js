@@ -58,7 +58,7 @@ button.addEventListener("click", () => {
         kholne wala hoon.<br><br>
 
         Scroll kijiye aur meri har baat
-        dil se padhiye...</p> <br><br>❤️
+        dil se padhiye...</p> <br><br>❤️ 
         <div class="heart-path"></div>
 
 

@@ -30,7 +30,7 @@ button.addEventListener("click", () => {
              <span style="font-size:16px;">💖</span>
             Assalamualaikum
             <span style="font-size:16px;">💖</span>
-        </h2>;
+        </h2>
 
         <h2 style="
             font-family:'Cinzel',serif;

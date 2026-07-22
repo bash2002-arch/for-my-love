@@ -413,17 +413,14 @@ width:100%;
 
 .heart-path span{
     font-size:30px;
-    animation:heartFloat none;
+    animation:heartFloat 2s ease-in-out infinite;
 }
 @keyframes heartFloat{
     0%{
-        transform:translate(-120);
+        transform:translateY(0);
     }
     50%{
-        transform:translate(120);
-    }
-    100%{
-        transform:translate(-120);
+        transform:translateY(-8px);  
     }
 }
 .welcome{

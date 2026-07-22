@@ -90,8 +90,11 @@ button.addEventListener("click", () => {
         Or jab aap sharma kar muskuraate toh... us waqt dikhta k duniya ki har khoobsurati ek taraf or aap ek taraf.<br><br>
 
         or suno suno<br>
-        Allah ne fursat se likhi hogi aapki taqdeer,
-        Tabhi toh har ada me alag hi noor nazar aata hai. 🌹<br><br>
+        Aapka zikr aaye toh mehfil me khamoshi utar aati hai,🤍
+        Jaise har lafz aapki khoobsurati ke saamne adab se jhuk jaata hai,😌
+        Mohabbat toh bahut log karte hain duniya me,
+        Magar aapku chahne ka andaaz hi kuch or hai. 🌹
+        🌹<br><br>
 
         2025 May se lekar aaj tak jo bhi waqt apan saath guzare, woh meri zindagi ki sabse khoobsurat yaade. 
         Chhoti chhoti baate, hasi mazaak, kabhi naraz hona, phir maan jaana... sab yaad hai. Shyd isku hi apnapan bolte.<br><br>
@@ -134,8 +137,13 @@ button.addEventListener("click", () => {
         Or agar meri zindagi ki sabse khoobsurat dua ka koi naam hai... toh woh sirf aap hai.<br><br>
 
         ek baat ek baat... aaj jitni bhi photos lere, filter ki zarurat hi nhi hai. Mashallah, Allah ne already HD quality me banaye aapku. 📸😂🤍<br><br>
+        
+        Aap husn ki woh kitaab ho,🤌🏼
+        Jise jitna padho utni hi gehraai nazar aaye,
+        Aapki ek muskurahat par toh,🫶🏽
+        Dil apni saari daulat haar jaaye. ✨ <br><br>
 
-        I love You So Much Mera Baccha. Aaj bhi, kal bhi, or In Sha Allah meri aakhri saans tak. Allah apan dono ku hamesha saath,
+        I love You So Much Meri Jaan. Aaj bhi, kal bhi, or In Sha Allah meri aakhri saans tak. Allah apan dono ku hamesha saath,
          mohabbat or barkat ke saaye me rakhe. Ameen Ameen 🤍
         <br><br>
         </p>
@@ -143,7 +151,7 @@ button.addEventListener("click", () => {
     const heartPath = document.querySelector(".heart-path");
 
 let hearts = "";
-let positions = [0, 40, 80, 120, 160, 120, 80, 40];
+let positions = [0,40,80,120,160,120,80,40];
 
 for (let i = 0; i < 150; i++) {
     hearts += `<span style="margin-left:${positions[i % positions.length]}px;">❤️</span>`;

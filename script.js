@@ -1,4 +1,7 @@
 window.history.replaceState(null, null, window.location.pathname);
+window.addEventListener("beforeunload", () => {
+    window.scrollTo(0, 0);
+});
 const PASSWORD = "ruqiyabasheer";
 
 window.onload = () => {

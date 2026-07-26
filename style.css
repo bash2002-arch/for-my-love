@@ -717,4 +717,62 @@ width:100%;
     font-family:'Allura',cursive;
 
 }
+@media(max-width:600px){
 
+    .container{
+
+        width:95%;
+        padding:35px 20px;
+
+    }
+
+    .birthday-message{
+
+        font-size:22px;
+        line-height:1.7;
+
+    }
+
+    .loveCard{
+
+        width:90%;
+        padding:35px 20px;
+
+    }
+
+    #loveText{
+
+        font-size:58px;
+
+    }
+
+    #infinity{
+
+        font-size:55px;
+
+    }
+
+    #forever{
+
+        font-size:22px;
+
+    }
+
+    #lastLine{
+
+        font-size:20px;
+
+    }
+
+}
+#accessGranted{
+    font: size 28px;
+    line-height:1.2;
+    white-space:nowrap;
+}
+
+@media(max-width:600px){
+    #accessGranted{
+        font-size:22px;
+    }
+}

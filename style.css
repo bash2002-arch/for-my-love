@@ -607,6 +607,12 @@ width:100%;
 }
 
 #surpriseBtn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    white-space:nowrap;
+
     padding:18px 40px;
     border:none;
     border-radius:50px;
@@ -775,4 +781,40 @@ width:100%;
     #accessGranted{
         font-size:22px;
     }
+}
+#typingText{
+
+    font-size:17px;
+    white-space:nowrap;
+
+}
+
+@media(max-width:600px){
+
+    #typingText{
+
+        font-size:14px;
+
+    }
+
+}
+.accessGranted{
+
+    font-family:'Cinzel',serif;
+    font-size:28px;
+    color:#B8860B;
+    text-align:center;
+    line-height:1.2;
+    white-space:nowrap;
+
+}
+
+@media(max-width:600px){
+
+.accessGranted{
+
+    font-size:22px;
+
+}
+
 }

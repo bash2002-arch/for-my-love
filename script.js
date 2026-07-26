@@ -1,3 +1,4 @@
+window.history.replaceState(null, null, window.location.pathname);
 const PASSWORD = "ruqiyabasheer";
 
 window.onload = () => {

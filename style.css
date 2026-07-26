@@ -772,9 +772,8 @@ width:100%;
 
 }
 #accessGranted{
-    font: size 28px;
+    font-size:28px;
     line-height:1.2;
-    white-space:nowrap;
 }
 
 @media(max-width:600px){
@@ -782,39 +781,35 @@ width:100%;
         font-size:22px;
     }
 }
+
+
 #typingText{
-
     font-size:16px;
-    white-space:nowrap;
-
+    line-height:1.5;
+    text-align:center;
+    width:100%;
+    max-width:100%;
+    overflow-wrap:break-word;
 }
 
 @media(max-width:600px){
-
     #typingText{
-
         font-size:14px;
-
     }
-
 }
-.accessGranted{
 
+
+.accessGranted{
     font-family:'Cinzel',serif;
     font-size:28px;
     color:#B8860B;
     text-align:center;
     line-height:1.2;
-    white-space:nowrap;
-
 }
 
 @media(max-width:600px){
-
-.accessGranted{
-    font-family: 'Allura',cursive;
-    font-size:32px;
-
-}
-
+    .accessGranted{
+        font-family:'Allura',cursive;
+        font-size:32px;
+    }
 }

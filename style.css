@@ -810,10 +810,13 @@ width:100%;
 }
 
 @media(max-width:600px){
-
+    #typingText{
+        font-size: 14px;
+    }
+        
 .accessGranted{
     font-family: 'Allura',cursive;
-    font-size:28px;
+    font-size:30px;
 
 }
 

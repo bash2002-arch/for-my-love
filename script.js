@@ -1,10 +1,104 @@
-const button = document.getElementById("openBtn");
+const PASSWORD = "ruqiyabasheer";
 
 window.onload = () => {
-    setTimeout(() => {
-        document.getElementById("loader").style.display = "none";
-    }, 2500);
+
+    document.getElementById("loader").style.display = "none";
+
 };
+const particles = document.querySelector(".gold-particles");
+
+for(let i=0;i<40;i++){
+
+    const dot=document.createElement("span");
+
+    dot.style.left=Math.random()*100+"%";
+
+    dot.style.animationDuration=(4+Math.random()*6)+"s";
+
+    dot.style.animationDelay=Math.random()*5+"s";
+
+    dot.style.width=(3+Math.random()*5)+"px";
+
+    dot.style.height=dot.style.width;
+
+    particles.appendChild(dot);
+
+}
+
+const unlockBtn = document.getElementById("unlockBtn");
+const passwordInput = document.getElementById("passwordInput");
+const errorMsg = document.getElementById("errorMsg");
+const togglePassword = document.getElementById("togglePassword");
+
+togglePassword.onclick = () =>{
+
+    if(passwordInput.type==="password"){
+
+        passwordInput.type="text";
+        togglePassword.innerHTML="🙈";
+
+    }else{
+
+        passwordInput.type="password";
+        togglePassword.innerHTML="👁️";
+
+    }
+
+};
+const text = "Welcome to a little piece of my heart...";
+let index = 0;
+
+function typeWriter() {
+
+    if (index < text.length) {
+
+        document.getElementById("typingText").innerHTML += text.charAt(index);
+
+        index++;
+
+        setTimeout(typeWriter, 60);
+
+    }
+
+}
+unlockBtn.onclick=()=>{
+
+    if(passwordInput.value===PASSWORD){
+        document.getElementById("unlockSound").play();
+
+        document.getElementById("passwordScreen").style.display="none";
+
+        document.getElementById("welcomeScreen").style.display="flex";
+        document.getElementById("typingText").innerHTML = "";
+        index = 0;
+        typeWriter();
+
+        setTimeout(()=>{
+
+            document.getElementById("welcomeScreen").style.display="none";
+
+            document.getElementById("loader").style.display="flex";
+
+            setTimeout(()=>{
+
+                document.getElementById("loader").style.display="none";
+
+                document.querySelector(".container").style.display="block";
+
+            },2500);
+
+        },3500);
+
+    }else{
+
+        errorMsg.innerHTML="❌ Wrong Password";
+        passwordInput.value="";
+
+    }
+
+};
+const button = document.getElementById("openBtn");
+
 
 button.addEventListener("click", () => {
 
@@ -146,6 +240,11 @@ button.addEventListener("click", () => {
         I love You So Much Meri Jaan. Aaj bhi, kal bhi, or In Sha Allah meri aakhri saans tak. Allah apan dono ku hamesha saath,
          mohabbat or barkat ke saaye me rakhe. Ameen Ameen 🤍
         <br><br>
+        <br><br>
+
+<div class="final-surprise">
+    <button id="surpriseBtn">❤️ One Last Surprise ❤️</button>
+</div>
         </p>
     `;
     const heartPath = document.querySelector(".heart-path");
@@ -158,4 +257,60 @@ for (let i = 0; i < 150; i++) {
 }
 
 heartPath.innerHTML = hearts;
+});
+document.addEventListener("click", (e) => {
+
+    if (e.target.id === "surpriseBtn") {
+
+        document.getElementById("surpriseScreen").style.display = "flex";
+        setTimeout(() => {
+    document.getElementById("loveText").classList.add("show");
+}, 500);
+
+setTimeout(() => {
+    document.getElementById("infinity").classList.add("show");
+}, 1500);
+
+setTimeout(() => {
+    document.getElementById("forever").classList.add("show");
+}, 2500);
+
+setTimeout(() => {
+    document.getElementById("lastLine").classList.add("show");
+}, 3500);
+        const roses = document.querySelector(".floatingRoses");
+
+roses.innerHTML = "";
+
+for(let i=0;i<25;i++){
+
+    roses.innerHTML += `
+        <span style="
+            left:${Math.random()*100}%;
+            animation-duration:${8+Math.random()*5}s;
+            animation-delay:${Math.random()*3}s;
+            font-size:${24+Math.random()*18}px;
+        ">🌹</span>
+    `;
+
+}
+        const sparkles = document.querySelector(".sparkles");
+
+sparkles.innerHTML = "";
+
+for(let i=0;i<80;i++){
+
+    sparkles.innerHTML += `
+        <span style="
+            left:${Math.random()*100}%;
+            top:${Math.random()*100}%;
+            animation-delay:${Math.random()*3}s;
+            animation-duration:${2+Math.random()*3}s;
+        "></span>
+    `;
+
+}
+
+    }
+
 });

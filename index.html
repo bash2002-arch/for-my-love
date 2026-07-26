@@ -43,6 +43,40 @@
     <span>💖</span>
     <span>💗</span>
 </div>
+<div class="gold-particles"></div>
+<div id="passwordScreen">
+
+    <div class="password-box">
+
+        <h2>🔒 Enter Password</h2>
+
+        <input
+            type="password"
+            id="passwordInput"
+            placeholder="Enter Password">
+
+        <span id="togglePassword">👁️</span>
+
+        <button id="unlockBtn">
+            Unlock ❤️
+        </button>
+
+        <p class="hint">
+            💡 Hint: Two names. One heart. No spaces, all lowercase. ❤️
+        </p>
+
+        <p id="errorMsg"></p>
+
+    </div>
+
+</div>
+
+<div id="welcomeScreen">
+
+    <h1>❤️ Access Granted ❤️</h1>
+
+    <p id="typingText"></p>
+</div>
     <!-- Loader -->
 
     <div id="loader">
@@ -101,8 +135,20 @@
 
     <script src="script.js"></script>
     <audio id="bgMusic" loop>
+        <audio id="unlockSound" src="assets/music/unlock.mp3.mp3"></audio>
     <source src="assets/music/song.mp3.mp3" type="audio/mpeg">
 </audio>
+<div id="surpriseScreen">
+    <div class="floatingRoses"></div>
+    <div class="sparkles"></div>
+
+    <h1>I Love You ❤️</h1>
+
+    <h2>∞</h2>
+
+    <p>Forever</p>
+
+</div>
 </body>
 
 </html>

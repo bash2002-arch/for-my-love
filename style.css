@@ -812,7 +812,7 @@ width:100%;
 @media(max-width:600px){
 
 .accessGranted{
-
+    font-family: 'Allura',cursive;
     font-size:22px;
 
 }
